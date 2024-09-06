@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferrari Vision</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    *{
+        margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    }
+
+   body{
+        background-image: url(fundo.jpg);
+        background-size: 100%;
+        height: 100vh;
+        width: 100vw;
+        
+        }
+</style>
+<style>
+  img{width: 20%}
+</style>
+<body> 
+  <header>
+    <h1>Ferrari Vision</h1>
+  </header> 
+  <main>
+    <section>
+        <div class="search-container">
+    <input type="text" placeholder="Digite o Modelo de Ferrari" id="campo-pesquisa">
+    <button onclick="buscar()">Buscar</button>
+</div>
+
+</section>
+<section class="resultados-pesquisa" 
+id="resultados-pesquisa"> 
+
+</section>
+  </main> 
+  <footer>
+    <p>2024 - &COPY;Todos Direitos Reservados Pela Ferrari </p>
+    <P>Entre em Contato Pelo Email: FerrariBR@gmail.com </P>
+  </footer>
+  <script src="dados.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
